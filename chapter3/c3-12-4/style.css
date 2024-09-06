@@ -1,7 +1,0 @@
-@charset "UTF-8";
-ul{
-    list-style: square url(../images/senritu.jpg) outside;
-}
-li{
-    background-color: aquamarine;
-}
