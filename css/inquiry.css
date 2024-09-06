@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+/*共通部分*/
+html{
+    font-size: 100%;
+}
+body{
+    font-family: 'RocknRoll One';
+    line-height: 1.7;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+/*ヘッダー*/
+.logo{
+    height: 150px;
+}
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+    margin-top: 45px;
+    margin-right: 50px;
+}
+.main-nav li{
+    margin-left: 36px;
+}
+.main-nav a{
+    color: rgb(0, 0, 0);
+    font-family: "M PLUS 1p"; 
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+/*ボタン*/
+.button{
+    font-family: 'RocknRoll One';
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 15px 25px;
+}
+
+/*背景*/
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+}
+#home{
+    background-image: url(../images/白背景.jpg);
+    min-height: 100vh;
+}
+/*フッター*/
+footer{
+    background: #432;
+    text-align: center;
+    padding: 26px 0;
+}
+footer p{
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+/*フォーム*/
+form div{
+    margin-bottom: 14px;
+}
+label{
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    background: rgb(255, 255, 255,.5);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+input[type="text"],
+input[type="email"]{
+    width: 100%;
+    max-width: 240px;
+}
+textarea{
+    width: 100%;
+    max-width: 480px;
+    height: 6rem;
+}
+input[type="submit"]{
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
+.button2{
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+label{
+    background: #fff;
+    width: 235px;   
+}
+.form10{
+    font-family: 'RocknRoll One';
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-title{
+    text-align: center;
+    font-family: 'RocknRoll One';
+}
